@@ -290,7 +290,7 @@ class Details extends React.Component {
               <Button
                 titleStyle={{ justifyContent: 'center', fontSize: height / 47, alignContent: "center", color: 'black' }}
                 containerStyle={{ width: width / 2.5, }}
-                buttonStyle={{ backgroundColor: 'yellow' }}
+                // buttonStyle={{ backgroundColor: 'yellow' }}
                 onPress={() => this.SubmitFields()}
                 title="SUBMIT"
               />
@@ -311,17 +311,17 @@ export default Details
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    // backgroundColor: 'white',
   },
 
   input_style: {
     marginBottom: -15,
     fontSize: height / 50,
-    color: 'white',
-    borderBottomColor: '#D3D3D3'
+    // color: 'white',
+    // borderBottomColor: '#D3D3D3'
   },
   inputContainer_Style: {
-    borderColor: '#D3D3D3',
+    // borderColor: '#D3D3D3',
     borderBottomWidth: 0.5,
     height: height / 17,
     marginLeft: -10,
